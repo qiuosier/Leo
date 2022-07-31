@@ -24,7 +24,7 @@ namespace Leo
             try
             {
                 Status alarmStatus = ConfigBaseOnRingAlarm(log, token);
-                return new OkObjectResult($"{alarmStatus}");
+                return new OkObjectResult($"{alarmStatus.ToString()}");
             }
             catch (Exception ex)
             {

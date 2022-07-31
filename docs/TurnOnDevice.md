@@ -1,4 +1,6 @@
 # Turn on a Device
+_"Turn on the lights for 5 minutes when there is motion during the night."_
+
 This function sends out a HTTP request to turn on a device, and a message to Azure Service Bus to turn off the device after a certain amount of time.
 
 **Function Name**: TurnOnDevice

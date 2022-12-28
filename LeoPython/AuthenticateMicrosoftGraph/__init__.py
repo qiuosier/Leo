@@ -11,13 +11,15 @@ from commons import oauth
 # 
 # Register application on Azure Active Directory admin center
 # https://aad.portal.azure.com/
+# Azure Active Directory -> App registrations
 # to obtain client ID and client secret.
 # Make sure to add the redirect URI to Web Redirect URIs.
 TOKEN_ENDPOINT = "https://login.microsoftonline.com/common/oauth2/v2.0/token"
 OAUTH_ENDPOINT = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize"
 GRAPH_ENDPOINT = "https://graph.microsoft.com/v1.0/"
 
-# Set the following values in environment variables or local.settings.json
+# Set the values of the following variable in environment variables or local.settings.json
+# e.g. the environment variable MS_GRAPH_CLIENT_ID should be set to the Microsoft Graph client ID
 CLIENT_ID_KEY = "MS_GRAPH_CLIENT_ID"
 CLIENT_SECRET_KEY = "MS_GRAPH_CLIENT_SECRET"
 DEFAULT_SCOPE_KEY = "MS_GRAPH_DEFAULT_SCOPE"

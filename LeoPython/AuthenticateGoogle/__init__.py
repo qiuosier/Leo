@@ -13,6 +13,9 @@ OAUTH_ENDPOINT = "https://accounts.google.com/o/oauth2/v2/auth"
 
 # Set the values of the following variable in environment variables or local.settings.json
 # e.g. the environment variable GOOGLE_CLIENT_ID should be set to the Google API client ID
+#
+# To obtain the client ID and client secret,
+# create OAuth Client ID in Google Cloud Console -> APIs & Services -> Credentials.
 CLIENT_ID_KEY = "GOOGLE_CLIENT_ID"
 CLIENT_SECRET_KEY = "GOOGLE_CLIENT_SECRET"
 DEFAULT_SCOPE_KEY = "GOOGLE_DEFAULT_SCOPE"

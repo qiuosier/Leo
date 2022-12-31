@@ -3,4 +3,5 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
-requests
+ring_doorbell==0.7.2
+Aries-Python==0.1.330
